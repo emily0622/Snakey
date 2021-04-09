@@ -1,0 +1,12 @@
+Demonstration video avaliable:
+https://drive.google.com/file/d/1JPKnVk_WvulpWVCCN__C2dTaoGvn0N60/view?usp=sharing
+
+The video shows a few features of Snakey:
+0:01
+Using Dijkstra's algorithm to find the shortest path to food until it reaches a certain length. This length is based on how large the grid is.
+
+0:05
+Then Snakey starts executing the cluster functions. Cluster functions ignore the location of the food and create a back and forth motion so cluster Snakey's body.
+
+0:26
+At this point in this recording, Snakey has blocked its path to the next piece of food, so Dijikstra's algorithm ran and returned False. Then snakey is instructed to move in a free direction, and run the algorithm again in hopes of a path emerging, which is what happens at time specified.
